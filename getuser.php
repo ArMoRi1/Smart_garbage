@@ -1,11 +1,12 @@
 <?php
+//require_once ('include/database.php');
 $q = intval($_GET['q']);
 include_once ('include/database.php');
-global $conn;
-$conn = mysqli_connect('localhost','root','');
-if (!$conn) {
-  die('Could not connect: ' . mysqli_error($conn));
-}
+//global $conn;
+//$conn = mysqli_connect('localhost','root','');
+//if (!$conn) {
+//  die('Could not connect: ' . mysqli_error($conn));
+//}
 
 mysqli_select_db($conn,"garbagedb");
 $sql="SELECT * FROM garbages WHERE id = '".$q."'";

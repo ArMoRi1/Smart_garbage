@@ -1097,7 +1097,7 @@ input[type=password]:focus, :active {
 		font-size: 14px;
 	}
 	.offer_garbage h3 {
-	    font-size: 18x;
+	    font-size: 18px;
 	}
 	.offer_garbage p {
 		font-size: 16px;
@@ -1123,7 +1123,7 @@ input[type=password]:focus, :active {
 
 }	
 	.offer_garbage h3 {
-	    font-size: 16x;
+	    font-size: 16px;
 	}
 	.offer_garbage p {
 		font-size: 14px;
@@ -1171,6 +1171,7 @@ input[type=password]:focus, :active {
 		width: 250px;
 		height: 250px;
 	}		
+}
 }
 
 
