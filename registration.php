@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/all.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/registration.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 </head>
 <body>

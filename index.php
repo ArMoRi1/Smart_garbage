@@ -96,6 +96,7 @@
 							<li class="mobile-nav__item"><a href="#map" class="mobile-nav__link">Map location</a></li>
 							<li class="mobile-nav__item"><a href="#contact" class="mobile-nav__link">Contact</a></li>
 							<li class="mobile-nav__item"><a href="login.php" class="mobile-nav__link">Sign in</a></li>
+                            <li class="mobile-nav__item"><a href="registration.php" class="mobile-nav__link">Sigh up</a></li>
 						</ul>
 					</div>
 				</div>
