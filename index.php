@@ -182,7 +182,7 @@
 					<option value="2">Garbage 2</option>
 					<option value="3">Garbage 3</option>
 					<option value="4">Garbage 4</option>
-					<option value="5">Add new garbage</option>
+                    <option value="add_new_garbage.php">Add new garbage</option>
 				</select>
 			</form>
 			<div class="garbage_connect">
