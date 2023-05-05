@@ -1,3 +1,6 @@
+<?php
+ session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +20,14 @@
 				<i class="fas fa-trash-alt"></i>
 				<h2>SmartGarbage</h2>			
 			</a>	
-			<form action="" class="registr_frm">
-				<input type="email" placeholder="Enter your email">
-				<input type="password" placeholder="Enter your password">
+			<form action="signin_user.php" method="post" class="registr_frm">
+				<input name = 'email'type="email" placeholder="Enter your email">
+				<input name = 'password' type="password" placeholder="Enter your password">
 				<button class="btn cta_btn">Sign In</button>
 			</form>
 			<div class="registr_restore">
 				<a href="#">Forgot your password?</a>
-				Don`t have an account? <a href="#"><span>Sign Up</span></a>
+				Don`t have an account? <a href="registration.php"><span>Sign Up</span></a>
 			</div>			
 		</div>
 	</section>

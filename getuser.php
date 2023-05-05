@@ -2,7 +2,7 @@
 //require_once ('include/database.php');
 $q = intval($_GET['q']);
 include_once ('include/database.php');
-//global $conn;
+global $conn;
 //$conn = mysqli_connect('localhost','root','');
 //if (!$conn) {
 //  die('Could not connect: ' . mysqli_error($conn));

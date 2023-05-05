@@ -222,7 +222,9 @@ header:before {
 	border-bottom:  1px solid #fff;
 	transition: all .5s ease;
 }
-
+.sign_container{
+	display: flex;
+}
 .sign_btn {
 	margin-left: auto;
 	width: 85px;
@@ -523,7 +525,7 @@ button {
 	align-items: center;
 	flex-direction: column;
 }
-input[type=email], input[type=password] {
+input[type=email], input[type=password], input[type=text] {
 	width: 400px;
 	height: 50px;
 	padding: 20px;
@@ -533,7 +535,8 @@ input[type=email], input[type=password] {
 	color: #fff;
 	background: rgba(0,0,0,0.2);
 
-} 
+}
+input[type=text]::placeholder,
 input[type=email]::placeholder, 
 input[type=password]::placeholder {
 	color: #fff;

@@ -95,12 +95,15 @@
 							<li class="mobile-nav__item"><a href="#connect" class="mobile-nav__link">Connect garbage</a></li>
 							<li class="mobile-nav__item"><a href="#map" class="mobile-nav__link">Map location</a></li>
 							<li class="mobile-nav__item"><a href="#contact" class="mobile-nav__link">Contact</a></li>
-							<li class="mobile-nav__item"><a href="login.html" class="mobile-nav__link">Sign in</a></li>
+							<li class="mobile-nav__item"><a href="login.php" class="mobile-nav__link">Sign in</a></li>
 						</ul>
 					</div>
 				</div>
-				<a href="login.html" class="btn sign_btn">Sign in</a>
-			</div>
+                <div class="sign_container">
+                    <a href="login.php" class="btn sign_btn">Sign in</a>
+                    <a href="registration.php" class="btn sign_btn">Sigh up</a>
+                </div>
+				</div>
 			<div class="content">
 				<div class="content_left_part">
 					<div class="offer">
@@ -173,7 +176,7 @@
 			</div>
 			<form action="#" class="form">
 				<select name="users" onchange="showUser(this.value)">
-					<option value="">Choose your garbage</option>
+					<option value disabled selected hidden>Choose your garbage</option>
 					<option value="1">Garbage 1</option>
 					<option value="2">Garbage 2</option>
 					<option value="3">Garbage 3</option>
