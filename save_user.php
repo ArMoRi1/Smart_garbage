@@ -33,9 +33,9 @@ if (isset($_POST['password'])) {
     }
 }
 
-if (empty($name) or empty($surname) or empty($login) or empty($password))
+if ($name==false or $surname==false or $login==false or $password==false)
 {
-    exit ("<div>"."Please be attentive. You did not fill in all the fields!"."</div>");
+    echo "<div>"."Please be attentive. You did not fill in all the fields!"."</div>";
 }
 
 $name = stripslashes($name);
@@ -62,7 +62,7 @@ if (!empty($myRow['id'])) {
 $result2 = mysqli_query ($conn,"INSERT INTO users (login,password,name,surname) VALUES('$login','$password','$name', '$surname')");
 if ($result2=='TRUE')
 {
-    echo "Registration was successful! Now you can go to the site.<a href='index.php'>Home</a>";
+    echo "Registration was successful! Now you can sign in to the site.<a href='login.php'>Sign In</a>";
 } else {
     echo "Error! You are not a user of our site.";
 }

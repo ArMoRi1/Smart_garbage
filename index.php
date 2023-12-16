@@ -182,7 +182,9 @@
 					<option value="2">Garbage 2</option>
 					<option value="3">Garbage 3</option>
 					<option value="4">Garbage 4</option>
-                    <option value="add_new_garbage.php">Add new garbage</option>
+                    <option class = "addGarbage" value="add_new_garbage.php">Add new garbage</option>
+
+
 				</select>
 			</form>
 			<div class="garbage_connect">
@@ -416,7 +418,7 @@
 					</div>
 				</div>
 				<div class="copyright">
-					<p>Copyright © 2019 - <?php echo date("Y");?> | All right reserved</p>
+					<p>Copyright © 2019 - <?php echo date("Y");?> | All rights reserved</p>
 				</div>
 		</div>
 	</footer>

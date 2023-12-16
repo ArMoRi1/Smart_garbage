@@ -394,6 +394,16 @@ header:before {
 	height: 47px;
 
 }
+.addGarbage:after{
+	content: "\f2b";
+	font-family: "Font Awesome 5 Free";
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	position: absolute;
+
+
+}
 .form:before {
 	content: "\f063";
 	font-family: "Font Awesome 5 Free";
